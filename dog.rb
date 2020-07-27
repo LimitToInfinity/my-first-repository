@@ -1,5 +1,4 @@
-# this is the class of doing
-# this is silly, I made it a dog instead - Alec
+# basic Dog class
 class Dog
   attr_reader :breed
   attr_accessor :name
