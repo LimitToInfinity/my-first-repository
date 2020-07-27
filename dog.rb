@@ -1,5 +1,4 @@
-# this is the class of doing
-# this is silly, I made it a dog instead - Alec
+# this is definitely not the Dog class
 class Dog
   attr_reader :breed
   attr_accessor :name
@@ -18,5 +17,9 @@ class Dog
 
   def save
     self.all << self
+  end
+
+  def dog_walking
+    puts 'Hooray I love outside!'
   end
 end
