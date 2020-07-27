@@ -18,4 +18,8 @@ class Dog
   def save
     self.all << self
   end
+
+  def dog_walking
+    puts 'Hooray I love outside!'
+  end
 end
