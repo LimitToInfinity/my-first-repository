@@ -1,4 +1,4 @@
-# this is definitely not the Dog class
+# basic Dog class
 class Dog
   attr_reader :breed
   attr_accessor :name
